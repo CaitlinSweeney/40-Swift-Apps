@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hIO-ns-GEy">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Groceries-->
+        <scene sceneID="pdT-2z-Bik">
+            <objects>
+                <tableViewController id="5jZ-wG-N1j" customClass="groceriesTableTableViewController" customModule="basicTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9ix-3s-0pn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="groceriesCell" textLabel="Izc-Df-nWy" style="IBUITableViewCellStyleDefault" id="K5j-0b-Gqc">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K5j-0b-Gqc" id="PHD-fV-iuQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Izc-Df-nWy">
+                                            <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5jZ-wG-N1j" id="hXs-AH-VXY"/>
+                            <outlet property="delegate" destination="5jZ-wG-N1j" id="PfT-Xz-BdC"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Groceries" id="YDB-yN-eYb">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Za0-fz-uRW">
+                            <connections>
+                                <segue destination="uEe-rv-4gx" kind="show" id="KH2-V3-inf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykf-jg-44J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980.625" y="79.225352112676063"/>
+        </scene>
+        <!--New Grocery-->
+        <scene sceneID="Uy9-I4-tMY">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="uEe-rv-4gx" customClass="NewGroceryViewControllerViewController" customModule="basicTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cgF-Oa-7XF"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZkM-i0-DIy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7iT-6g-pZT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="vzA-UO-v4e">
+                                <rect key="frame" x="16" y="84" width="288" height="440"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vzA-UO-v4e" firstAttribute="leading" secondItem="7iT-6g-pZT" secondAttribute="leadingMargin" id="5ZP-MQ-Pdh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vzA-UO-v4e" secondAttribute="trailing" id="Aa5-J9-Zxd"/>
+                            <constraint firstItem="ZkM-i0-DIy" firstAttribute="top" secondItem="vzA-UO-v4e" secondAttribute="bottom" id="ikV-3G-lcJ"/>
+                            <constraint firstItem="vzA-UO-v4e" firstAttribute="top" secondItem="cgF-Oa-7XF" secondAttribute="bottom" constant="20" id="pkY-DU-4q0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Grocery" id="rc5-Ct-HNx">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="0Ee-ao-zWe">
+                            <connections>
+                                <action selector="tapDoneButton:" destination="uEe-rv-4gx" id="qQ4-Ye-URf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="newGroceryTextView" destination="vzA-UO-v4e" id="4X3-7b-U1Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGg-IC-nRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1687.5" y="77.112676056338032"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ET3-7A-cTe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hIO-ns-GEy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ucB-2F-0Oj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5jZ-wG-N1j" kind="relationship" relationship="rootViewController" id="Nw3-8u-wEV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzF-Zk-2wh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="79"/>
+        </scene>
+    </scenes>
+</document>
