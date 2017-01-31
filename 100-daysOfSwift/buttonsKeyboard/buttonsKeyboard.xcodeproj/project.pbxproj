@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A899420A1E413E05007B2B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89942091E413E05007B2B8C /* AppDelegate.swift */; };
+		A899420C1E413E05007B2B8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899420B1E413E05007B2B8C /* ViewController.swift */; };
+		A899420F1E413E05007B2B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A899420D1E413E05007B2B8C /* Main.storyboard */; };
+		A89942111E413E05007B2B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89942101E413E05007B2B8C /* Assets.xcassets */; };
+		A89942141E413E05007B2B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89942121E413E05007B2B8C /* LaunchScreen.storyboard */; };
+		A899421F1E413E05007B2B8C /* buttonsKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899421E1E413E05007B2B8C /* buttonsKeyboardTests.swift */; };
+		A899422A1E413E06007B2B8C /* buttonsKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89942291E413E06007B2B8C /* buttonsKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A899421B1E413E05007B2B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89941FE1E413E05007B2B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89942051E413E05007B2B8C;
+			remoteInfo = buttonsKeyboard;
+		};
+		A89942261E413E06007B2B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89941FE1E413E05007B2B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89942051E413E05007B2B8C;
+			remoteInfo = buttonsKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A89942061E413E05007B2B8C /* buttonsKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buttonsKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89942091E413E05007B2B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A899420B1E413E05007B2B8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A899420E1E413E05007B2B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A89942101E413E05007B2B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A89942131E413E05007B2B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A89942151E413E05007B2B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A899421A1E413E05007B2B8C /* buttonsKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonsKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A899421E1E413E05007B2B8C /* buttonsKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonsKeyboardTests.swift; sourceTree = "<group>"; };
+		A89942201E413E05007B2B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89942251E413E06007B2B8C /* buttonsKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonsKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89942291E413E06007B2B8C /* buttonsKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonsKeyboardUITests.swift; sourceTree = "<group>"; };
+		A899422B1E413E06007B2B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A89942031E413E05007B2B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942171E413E05007B2B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942221E413E06007B2B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A89941FD1E413E05007B2B8C = {
+			isa = PBXGroup;
+			children = (
+				A89942081E413E05007B2B8C /* buttonsKeyboard */,
+				A899421D1E413E05007B2B8C /* buttonsKeyboardTests */,
+				A89942281E413E06007B2B8C /* buttonsKeyboardUITests */,
+				A89942071E413E05007B2B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A89942071E413E05007B2B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A89942061E413E05007B2B8C /* buttonsKeyboard.app */,
+				A899421A1E413E05007B2B8C /* buttonsKeyboardTests.xctest */,
+				A89942251E413E06007B2B8C /* buttonsKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A89942081E413E05007B2B8C /* buttonsKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A89942091E413E05007B2B8C /* AppDelegate.swift */,
+				A899420B1E413E05007B2B8C /* ViewController.swift */,
+				A899420D1E413E05007B2B8C /* Main.storyboard */,
+				A89942101E413E05007B2B8C /* Assets.xcassets */,
+				A89942121E413E05007B2B8C /* LaunchScreen.storyboard */,
+				A89942151E413E05007B2B8C /* Info.plist */,
+			);
+			path = buttonsKeyboard;
+			sourceTree = "<group>";
+		};
+		A899421D1E413E05007B2B8C /* buttonsKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A899421E1E413E05007B2B8C /* buttonsKeyboardTests.swift */,
+				A89942201E413E05007B2B8C /* Info.plist */,
+			);
+			path = buttonsKeyboardTests;
+			sourceTree = "<group>";
+		};
+		A89942281E413E06007B2B8C /* buttonsKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A89942291E413E06007B2B8C /* buttonsKeyboardUITests.swift */,
+				A899422B1E413E06007B2B8C /* Info.plist */,
+			);
+			path = buttonsKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A89942051E413E05007B2B8C /* buttonsKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A899422E1E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboard" */;
+			buildPhases = (
+				A89942021E413E05007B2B8C /* Sources */,
+				A89942031E413E05007B2B8C /* Frameworks */,
+				A89942041E413E05007B2B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buttonsKeyboard;
+			productName = buttonsKeyboard;
+			productReference = A89942061E413E05007B2B8C /* buttonsKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A89942191E413E05007B2B8C /* buttonsKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89942311E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboardTests" */;
+			buildPhases = (
+				A89942161E413E05007B2B8C /* Sources */,
+				A89942171E413E05007B2B8C /* Frameworks */,
+				A89942181E413E05007B2B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A899421C1E413E05007B2B8C /* PBXTargetDependency */,
+			);
+			name = buttonsKeyboardTests;
+			productName = buttonsKeyboardTests;
+			productReference = A899421A1E413E05007B2B8C /* buttonsKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A89942241E413E06007B2B8C /* buttonsKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89942341E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboardUITests" */;
+			buildPhases = (
+				A89942211E413E06007B2B8C /* Sources */,
+				A89942221E413E06007B2B8C /* Frameworks */,
+				A89942231E413E06007B2B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89942271E413E06007B2B8C /* PBXTargetDependency */,
+			);
+			name = buttonsKeyboardUITests;
+			productName = buttonsKeyboardUITests;
+			productReference = A89942251E413E06007B2B8C /* buttonsKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A89941FE1E413E05007B2B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "caitlin sweeney";
+				TargetAttributes = {
+					A89942051E413E05007B2B8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A89942191E413E05007B2B8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A89942051E413E05007B2B8C;
+					};
+					A89942241E413E06007B2B8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A89942051E413E05007B2B8C;
+					};
+				};
+			};
+			buildConfigurationList = A89942011E413E05007B2B8C /* Build configuration list for PBXProject "buttonsKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A89941FD1E413E05007B2B8C;
+			productRefGroup = A89942071E413E05007B2B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A89942051E413E05007B2B8C /* buttonsKeyboard */,
+				A89942191E413E05007B2B8C /* buttonsKeyboardTests */,
+				A89942241E413E06007B2B8C /* buttonsKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A89942041E413E05007B2B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89942141E413E05007B2B8C /* LaunchScreen.storyboard in Resources */,
+				A89942111E413E05007B2B8C /* Assets.xcassets in Resources */,
+				A899420F1E413E05007B2B8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942181E413E05007B2B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942231E413E06007B2B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A89942021E413E05007B2B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899420C1E413E05007B2B8C /* ViewController.swift in Sources */,
+				A899420A1E413E05007B2B8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942161E413E05007B2B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899421F1E413E05007B2B8C /* buttonsKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89942211E413E06007B2B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899422A1E413E06007B2B8C /* buttonsKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A899421C1E413E05007B2B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89942051E413E05007B2B8C /* buttonsKeyboard */;
+			targetProxy = A899421B1E413E05007B2B8C /* PBXContainerItemProxy */;
+		};
+		A89942271E413E06007B2B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89942051E413E05007B2B8C /* buttonsKeyboard */;
+			targetProxy = A89942261E413E06007B2B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A899420D1E413E05007B2B8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A899420E1E413E05007B2B8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A89942121E413E05007B2B8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A89942131E413E05007B2B8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A899422C1E413E06007B2B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A899422D1E413E06007B2B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A899422F1E413E06007B2B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = buttonsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A89942301E413E06007B2B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = buttonsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A89942321E413E06007B2B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = buttonsKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttonsKeyboard.app/buttonsKeyboard";
+			};
+			name = Debug;
+		};
+		A89942331E413E06007B2B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = buttonsKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttonsKeyboard.app/buttonsKeyboard";
+			};
+			name = Release;
+		};
+		A89942351E413E06007B2B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = buttonsKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = buttonsKeyboard;
+			};
+			name = Debug;
+		};
+		A89942361E413E06007B2B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = buttonsKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caitlin.sweeney.buttonsKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = buttonsKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A89942011E413E05007B2B8C /* Build configuration list for PBXProject "buttonsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A899422C1E413E06007B2B8C /* Debug */,
+				A899422D1E413E06007B2B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A899422E1E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A899422F1E413E06007B2B8C /* Debug */,
+				A89942301E413E06007B2B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A89942311E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89942321E413E06007B2B8C /* Debug */,
+				A89942331E413E06007B2B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A89942341E413E06007B2B8C /* Build configuration list for PBXNativeTarget "buttonsKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89942351E413E06007B2B8C /* Debug */,
+				A89942361E413E06007B2B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A89941FE1E413E05007B2B8C /* Project object */;
+}
